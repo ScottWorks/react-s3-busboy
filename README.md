@@ -22,4 +22,4 @@ https://stackoverflow.com/questions/2056124/nginx-client-max-body-size-has-no-ef
 
 # Under the Hood
 
-In short BusBoy is a parser that expects multipart and or form-data, on the client side I used the FormData constructor to properly format the files being sent to the server such that BusBoy can parse what its recieving.
+In short, BusBoy is a parser that expects multipart and or form-data, on the client side I used the FormData constructor to properly format the files being sent.
