@@ -1,0 +1,23 @@
+{
+  "name": "react-s3-busboy",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "^2.240.1",
+    "axios": "^0.18.0",
+    "busboy": "^0.2.14",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "main": "./server/index.js",
+  "proxy": "http://localhost:4000"
+}
